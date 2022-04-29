@@ -1,0 +1,25 @@
+Final Project Checklist
+
+ 
+-Part 1:  I want you to find a data set online and do "research" on it with statistics.  
+More specifically, apply each problem solving techinque to the data set.  Use your text excercises to give you examples, you are allowd to just reword your text problems to fit your data set.
+Write a 2 page min essay (no max).  Works cited, pictures as needed, title page, etc.
+X Part 2:  Formula Sheet, Stats Library, updated to the best of your ability.
+X Part 3:  Use Matlab or Octave to plot and smooth salted data.
+Then uses a combination of Apache Stats Library and JFree Charts to do this again.
+
+Resources:
+Matlab Tutorial
+https://www.cselectricalandelectronics.com/matlab-programming-tutorials-for-beginners-with-examples/
+
+Download Octave + Tutorial
+https://www.gnu.org/software/octave/index
+
+Do examples and put in document with screen shots.
+https://octave.org/doc/v6.1.0/Simple-Examples.html
+
+JFree Charts
+https://github.com/jfree/jfreechart/releases
+
+Download Stats Library
+https://commons.apache.org/proper/commons-math/download_math.cgi
