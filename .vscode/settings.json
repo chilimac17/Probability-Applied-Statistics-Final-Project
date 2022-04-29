@@ -1,0 +1,13 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "Resources/commons-math3-3.6.1/commons-math3-3.6.1.jar",
+        "Resources/commons-math3-3.6.1/commons-math3-3.6.1-javadoc.jar",
+        "Resources/commons-math3-3.6.1/commons-math3-3.6.1-sources.jar",
+        "Resources/commons-math3-3.6.1/commons-math3-3.6.1-tests.jar",
+        "Resources/commons-math3-3.6.1/commons-math3-3.6.1-test-sources.jar",
+        "Resources/commons-math3-3.6.1/commons-math3-3.6.1-tools.jar",
+        "Resources/jfreechart-1.5.3/target/jfreechart-1.5.3.jar"
+    ],
+    "maven.view": "flat"
+}
