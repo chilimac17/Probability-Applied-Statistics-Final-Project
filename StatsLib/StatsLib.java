@@ -511,15 +511,27 @@ public class StatsLib {
         return val.multiply(factorialOfBigInts(n-1));
     }
     /**
-     * This method takes in a A value and B value to get the uniform distribution
+     * This method takes in a A value and B value to get the uniform distribution of a density function.
      * @param a
      * @param b
-     * @return Double Uniform Distribution
+     * @return Double Uniform Distribution density function
      */
     public double getUniformDistribution(double a, double b){
         double ud = 0;
         ud = 1/(b-a);
         return ud;
+    }
+    /**
+     * This method takes in a A value, B value, and X value to get the uniform distribution of a distribution function.
+     * @param a
+     * @param b
+     * @param x
+     * @return Double Uniform Distribution distribution function
+     */
+    public double getUniformDistribution2(double a, double b,double x){
+        double ud2 = 0; 
+        ud2 = (x-a)/(b-a);
+        return ud2;
     }
     /**
      * This method calculates the probability of uniform distribution an interdral with the variables a,b,c,d.
@@ -660,10 +672,11 @@ public class StatsLib {
         System.out.println("Poisson Dis: " + getPoissonDistribution(5, 3));
         System.out.println("Chebyshev Dis: " + getChebyshev(5, 75, 50, 100));
         System.out.println("Big Integer: " + factorialOfBigInts(10));
-        System.out.println("Uniform dis");
-        System.out.println("Calc Prob");
-        System.out.println("Uniform dis expected");
-        System.out.println("Uniform dis variance");
+        System.out.println("Uniform dis" + getUniformDistribution(10, 20));
+        System.out.println("Uniform dis" + getUniformDistribution2(10, 20,22));
+        System.out.println("Calc Prob" + getCalcProbabilityUN(10, 20, 20, 25));
+        System.out.println("Uniform dis expected" + expectedUN(12, 20));
+        System.out.println("Uniform dis variance" + variance(10, 26));
 
     }
 }

@@ -1,7 +1,7 @@
 Final Project Checklist
 
  
--Part 1:  I want you to find a data set online and do "research" on it with statistics.  
+X Part 1:  I want you to find a data set online and do "research" on it with statistics.  
 More specifically, apply each problem solving techinque to the data set.  Use your text excercises to give you examples, you are allowd to just reword your text problems to fit your data set.
 Write a 2 page min essay (no max).  Works cited, pictures as needed, title page, etc.
 X Part 2:  Formula Sheet, Stats Library, updated to the best of your ability.
